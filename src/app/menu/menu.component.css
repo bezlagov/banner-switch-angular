@@ -1,0 +1,29 @@
+.header {
+  width: 100%;
+  min-height: 30px;
+  background-color: #000000;
+}
+
+.menu {
+  display: flex;
+  min-height: 30px;
+  margin-top: 20px;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item {
+  width: 150px;
+  text-decoration: none;
+}
+a {
+  color: #fff;
+}
+.menu-item a {
+  text-decoration: none;
+}
+
+.active {
+  color: red;
+}
